@@ -255,7 +255,7 @@ def create_app(test_config=None):
         }), 422
 
     @app.errorhandler(400)
-    def unprocessable(error):
+    def bad_request(error):
         return jsonify({
             "success": False,
             "error": 400,
@@ -263,7 +263,7 @@ def create_app(test_config=None):
         }), 400
 
     @app.errorhandler(405)
-    def unprocessable(error):
+    def not_allowed(error):
         return jsonify({
             "success": False,
             "error": 405,
@@ -271,7 +271,7 @@ def create_app(test_config=None):
         }), 405
 
     @app.errorhandler(500)
-    def unprocessable(error):
+    def irs(error):
         return jsonify({
             "success": False,
             "error": 500,
