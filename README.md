@@ -42,3 +42,10 @@ The `./frontend` directory contains a complete React frontend to consume the dat
 Pay special attention to what data the frontend is expecting from each API response to help guide how you format your API. 
 
 [View the README.md within ./frontend for more details.](./frontend/README.md)
+
+## Check out my other projects from this course!
+1. [fyyur](https://github.com/eugenlee/fyyur)
+2. [trivia](https://github.com/eugenlee/trivia) currently here
+3. [coffeeshop](https://github.com/eugenlee/coffeeshop)
+4. [flask_kubernetes](https://github.com/eugenlee/flask_kubernetes)
+5. [nba-players](https://github.com/eugenlee/nba-players)
